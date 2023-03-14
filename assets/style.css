@@ -6,7 +6,7 @@
 
 .start {
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     width: 50%;
     background-color: rgb(255, 170, 251);
@@ -40,7 +40,7 @@
     background-color: rgb(255, 170, 251);
     width: 50%;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 5%;
     text-align: center;
     border: solid 8px black;
@@ -68,4 +68,19 @@
 .game button:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+/* Start of Clock */
+
+.together {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
 }
