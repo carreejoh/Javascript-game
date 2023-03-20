@@ -14,3 +14,7 @@ The bootcamp team, and W3 Schools.
 N/A
 
 # Link To Site
+https://carreejoh.github.io/Javascript-game/
+
+# Screenshot
+![image](https://user-images.githubusercontent.com/122936256/226484320-96b1a3d6-df88-4d4b-b5eb-ac6a61a1c6d4.png)
