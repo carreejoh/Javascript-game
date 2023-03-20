@@ -84,3 +84,33 @@ header {
     margin-top: 2%;
     width: 50%;
 }
+
+/* Start of End Game and Scoreboard */
+
+.end {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8%;
+    padding-top: 2%;
+    margin-left: 20%;
+    width: 50%;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 170, 251);
+    border: solid 8px black;
+    border-radius: 20px;
+}
+
+.togetherend {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.end form {
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
