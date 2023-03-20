@@ -97,11 +97,11 @@ function correct() {
 
 
 function question1() {
-    gamequestion.textContent = "What does a variable do"; //Change Quesitons
-    answer1.textContent = "Answer1test";
-    answer2.textContent = "Answer2testcorrect";
-    answer3.textContent = "Answer3test";
-    answer4.textContent = "Answer4test";
+    gamequestion.textContent = "Which element is used to link JavaScript and HTML?"; //Change Quesitons
+    answer1.textContent = "<section>";
+    answer2.textContent = "<script>";
+    answer3.textContent = "<div>";
+    answer4.textContent = "<body>";
     // TODO add if statement for time penalty, score, local memory
     answer1.addEventListener("click", wrong, );
     answer2.addEventListener("click", correct, );
@@ -118,11 +118,11 @@ function question2() {
     answer3.removeEventListener("click", wrong);
     answer4.removeEventListener("click", wrong);
 
-    gamequestion.textContent = "fgh"; //Change Quesitons
-    answer1.textContent = "Answer1test1";
-    answer2.textContent = "Answer2test1";
-    answer3.textContent = "Answer3test1correct";
-    answer4.textContent = "Answer4test1";
+    gamequestion.textContent = "How do you leave a comment in JavaScript?"; //Change Quesitons
+    answer1.textContent = "<!-- -->";
+    answer2.textContent = "/* */";
+    answer3.textContent = "//";
+    answer4.textContent = "You can't";
 
     answer1.addEventListener("click", wrong, );
     answer2.addEventListener("click", wrong, );
@@ -138,11 +138,11 @@ function question3() {
     answer3.removeEventListener("click", correct);
     answer4.removeEventListener("click", wrong);
 
-    gamequestion.textContent = "Question3test"; //Change Quesitons
-    answer1.textContent = "Answer1test1222";
-    answer2.textContent = "Answer2test1222";
-    answer3.textContent = "Answer3test1222correct";
-    answer4.textContent = "Answer4test1222";
+    gamequestion.textContent = "How do you display a confirm box?"; //Change Quesitons
+    answer1.textContent = "location.confirm()";
+    answer2.textContent = "window.confirm()";
+    answer3.textContent = "confirm()";
+    answer4.textContent = "alert()";
 
     answer1.addEventListener("click", wrong, );
     answer2.addEventListener("click", wrong, );
@@ -156,11 +156,11 @@ function question4() {
     answer3.removeEventListener("click", correct);
     answer4.removeEventListener("click", wrong);
 
-    gamequestion.textContent = "Question4test"; //Change Quesitons
-    answer1.textContent = "Answer1test1222";
-    answer2.textContent = "Answer2test1222";
-    answer3.textContent = "Answer3test1222";
-    answer4.textContent = "Answer4test1222correct";
+    gamequestion.textContent = "Which method removes an item from the end of an array?"; //Change Quesitons
+    answer1.textContent = "shift()";
+    answer2.textContent = "unshift()";
+    answer3.textContent = "push()";
+    answer4.textContent = "pop()";
 
     answer1.addEventListener("click", wrong, );
     answer2.addEventListener("click", wrong, );
@@ -174,11 +174,11 @@ function question5() {
     answer3.removeEventListener("click", wrong);
     answer4.removeEventListener("click", correct);
 
-    gamequestion.textContent = "Question5test"; //Change Quesitons
-    answer1.textContent = "Answer1test1222correct";
-    answer2.textContent = "Answer2test1222";
-    answer3.textContent = "Answer3test1222";
-    answer4.textContent = "Answer4test1222";
+    gamequestion.textContent = "What is the purpose of JavaScript?"; //Change Quesitons
+    answer1.textContent = "Makes websites interactive";
+    answer2.textContent = "Adds style to a website";
+    answer3.textContent = "Defines the structure of a webpage";
+    answer4.textContent = "Is used to build operating systems";
 
     answer1.addEventListener("click", correct, );
     answer2.addEventListener("click", wrong, );
@@ -192,11 +192,11 @@ function question6() {
     answer3.removeEventListener("click", wrong);
     answer4.removeEventListener("click", wrong);
 
-    gamequestion.textContent = "Question5test"; //Change Quesitons
-    answer1.textContent = "Answer1test1222";
-    answer2.textContent = "Answer2test1222";
-    answer3.textContent = "Answer3test1222correct";
-    answer4.textContent = "Answer4test1222";
+    gamequestion.textContent = "Which type of scoping does JavaScript Use?"; //Change Quesitons
+    answer1.textContent = "Sequential";
+    answer2.textContent = "Segmental";
+    answer3.textContent = "Lexical";
+    answer4.textContent = "Literal";
 
     answer1.addEventListener("click", wrong, );
     answer2.addEventListener("click", wrong, );
